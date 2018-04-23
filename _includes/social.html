@@ -1,14 +1,9 @@
 Follow me:
 <div id="stalker">
-  {% if site.data.theme.social.github %}
-  <a title="{{ site.data.theme.social.github }} on Github" href="https://github.com/{{ site.data.theme.social.github }}">
-    <i class="fa fa-github-square"></i>
-  </a>
-  {% endif %}
 
-  {% if site.data.theme.social.bitbucket %}
-  <a title="{{ site.data.theme.social.bitbucket }} on Bitbucket" href="https://bitbucket.com/{{ site.data.theme.social.bitbucket }}/">
-    <i class="fa fa-bitbucket-square"></i>
+  {% if site.data.theme.show_atom_feed %}
+  <a title="Atom feed" id="atom" href="/atom.xml">
+    <i class="fa fa-rss-square"></i>
   </a>
   {% endif %}
 
@@ -66,9 +61,15 @@ Follow me:
   </a>
   {% endif %}
 
-  {% if site.data.theme.show_atom_feed %}
-  <a title="Atom feed" id="atom" href="/atom.xml">
-    <i class="fa fa-rss-square"></i>
+  {% if site.data.theme.social.github %}
+  <a title="{{ site.data.theme.social.github }} on Github" href="https://github.com/{{ site.data.theme.social.github }}">
+    <i class="fa fa-github-square"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.theme.social.bitbucket %}
+  <a title="{{ site.data.theme.social.bitbucket }} on Bitbucket" href="https://bitbucket.com/{{ site.data.theme.social.bitbucket }}/">
+    <i class="fa fa-bitbucket-square"></i>
   </a>
   {% endif %}
 
