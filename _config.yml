@@ -16,13 +16,12 @@
 
 # General Jekyll Config
 highlighter: rouge
-url: http://amaceh.github.io
+url: https://amaceh.github.io
 lsi: false
 
 ---
 layout: default
 comments: true
-url: https://amaceh.github.io
 # other options
 ---
 
