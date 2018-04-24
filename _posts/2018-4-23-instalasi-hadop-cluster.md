@@ -3,6 +3,7 @@ layout: post
 title: Trik Instalasi Hadoop 3.1 dalam Mode Cluster
 categories:
 - big-data
+comments: true
 ---
 
 Kali ini saya akan membagikan "sedikit tips" dalam instalasi Hadoop 3.1 dalam mode cluster, saya rasa tips ini berguna bagi kamu yang sedang mencoba instalasi dengan beberapa laptop, karena saya dan teman-teman saya menemui beberapa kendala saat instalasi ini sendiri dan perlu waktu beberapa hari bagi kami menemukan solusi ~~mungkin karena kami masih terlalu noob~~.

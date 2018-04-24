@@ -19,6 +19,13 @@ highlighter: rouge
 url: http://amaceh.github.io
 lsi: false
 
+---
+layout: default
+comments: true
+url: http://amaceh.github.io
+# other options
+---
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
